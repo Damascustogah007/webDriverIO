@@ -22,7 +22,7 @@ export const config = {
     //
     specs: [
         // ToDo: define location for spec files here
-        'test/specs/**/wait.js'
+        'test/specs/**/iFrame.js'
     ],
     // Patterns to exclude.
     exclude: [

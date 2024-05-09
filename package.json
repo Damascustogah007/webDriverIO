@@ -2,9 +2,15 @@
   "name": "webDriverIO",
   "type": "module",
   "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/register": "^7.23.7",
     "@wdio/local-runner": "^8.36.1",
     "@wdio/mocha-framework": "^8.36.1",
-    "@wdio/spec-reporter": "^8.36.1"
+    "@wdio/spec-reporter": "^8.36.1",
+    "eslint": "^9.2.0",
+    "eslint-plugin-wdio": "^8.24.12"
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"

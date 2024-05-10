@@ -1,6 +1,8 @@
+import HomePage from "../pages/Home-page.js";
+
 describe("Navigation Menu", () => {
   it("Get the text of all menu items & assert them", async () => {
-    await browser.url("/");
+    await HomePage.openURL();
 
     const expectedLnks = [
       "Home",
@@ -16,7 +18,7 @@ describe("Navigation Menu", () => {
 
     //Note that id* means element starting with menu
     // const navLinks = await $("#zak-primary-menu").$$("li[id*=menu]");
-    const navLinks = await $$("#zak-primary-menu li[id*=menu]");
+    const navLinks = await HomePage.navigationComponent.navLinkList;
 
     //Loop through each link and get the text and push them to the actualLinks array
     for (const link of navLinks) {

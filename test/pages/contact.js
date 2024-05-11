@@ -1,3 +1,5 @@
+import { faker } from '@faker-js/faker';
+
 class contactUs {
   get navMenuList() {
     return $$("#zak-primary-nav li");
@@ -51,10 +53,10 @@ class contactUs {
 
   fillContactForm = async () => {
 
-    await this.nameField.setValue("Charles");
-    await this.emailField.setValue("ijhdvbhfrbkwhb@gmail.com");
-    await this.phoneField.setValue("647390383739");
-    await this.textArea.setValue("Test");
+    await this.nameField.setValue(faker.person.fullName());
+    await this.emailField.setValue(faker.internet.email());
+    await this.phoneField.setValue(faker.phone.number());
+    await this.textArea.setValue(faker.lorem.paragraphs(1));
     await this.submitButton.click();
   };
 }

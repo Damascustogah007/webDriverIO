@@ -1,0 +1,41 @@
+{
+  "id": {
+    "sessionId": "a7bf5730-0150-4565-9cc3-aa677fd41cbc",
+    "elementId": "efc8a7cd-6159-48a1-9657-80a081bceefe",
+    "element-6066-11e4-a52e-4f735466cecf": "efc8a7cd-6159-48a1-9657-80a081bceefe",
+    "selector": "//iframe[@name=\"advanced_iframe\"]",
+    "parent": {
+      "sessionId": "a7bf5730-0150-4565-9cc3-aa677fd41cbc",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "firefox",
+        "browserVersion": "125.0.1",
+        "moz:accessibilityChecks": false,
+        "moz:buildID": "20240416043247",
+        "moz:geckodriverVersion": "0.34.0",
+        "moz:headless": false,
+        "moz:platformVersion": "10.0",
+        "moz:processID": 48232,
+        "moz:profile": "C:\\Users\\CHARLE~1\\AppData\\Local\\Temp\\rust_mozprofilekXV5Vb",
+        "moz:shutdownTimeout": 60000,
+        "moz:webdriverClick": true,
+        "moz:windowless": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+        "wdio:driverPID": 10844
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}
